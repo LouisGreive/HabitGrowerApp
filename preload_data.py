@@ -19,7 +19,7 @@ def preload_data(db_path="db/preload_test_data.db"):
     db.commit()
 
     # set creation date to four weeks ago
-    creation_date = (datetime.now() - timedelta(weeks=4)).isoformat()
+    creation_date = (datetime.now() - timedelta(weeks=4))
 
     # define  sample habit
     habits = [
