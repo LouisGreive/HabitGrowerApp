@@ -15,7 +15,7 @@ from datetime import datetime
 
 # initialize the main application window
 root = tk.Tk()
-root.title("Habit Grower")
+root.title("HABIT GROWER")
 root.geometry("600x700")
 # Custom colors and styles
 bg_color = "#282c34" # gives a dark background color
